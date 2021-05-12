@@ -245,8 +245,7 @@ class Game:
                 break
 
             if self.us.board.count == 7:
-                print("-" * 20)
-                print("Победа Компьютера")
+                print("\nПобеда Компьютера")
                 break
             num += 1
 
